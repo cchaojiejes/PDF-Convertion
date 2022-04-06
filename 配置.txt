@@ -1,0 +1,7 @@
+先安装以下包，在terminal里运行：
+pip install --user pypdf2
+pip install --user docx2pdf
+
+这里是encode报错解决方法：
+配置gbk中文识别generic.py：https://blog.csdn.net/kmesky/article/details/102695520
+配置latin-1识别utiles.py：http://www.manongjc.com/detail/16-ihkwrfonjseevjq.html
